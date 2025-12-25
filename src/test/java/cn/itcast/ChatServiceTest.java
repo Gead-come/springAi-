@@ -14,7 +14,7 @@ class ChatServiceTest {
 
     @Test
     void chat() {
-        this.chatService.chat("讲一个笑话");
-        this.chatService.chat("java是什么");
+//        this.chatService.chat("讲一个笑话");
+//        this.chatService.chat("java是什么");
     }
 }

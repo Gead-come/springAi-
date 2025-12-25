@@ -11,6 +11,10 @@ spring:
       chat:
         options:
           model: qwen-plus
+    embedding:
+      options:
+        model: text-embedding-v3
+        dimension: 1024
     openai: #openai配置
       base-url: https://dashscope.aliyuncs.com/compatible-mode #阿里百炼api地址
       #      base-url: https://api.chatanywhere.tech #api地址
@@ -21,6 +25,8 @@ spring:
           model: qwen-plus #阿里百炼 模型名称
         enabled: false #关闭OpenAI配置
 #          model: gpt-3.5-turbo #模型名称
+      embedding:
+        enabled: false   #关闭OpenAI配置
 logging:
   level:
     org:

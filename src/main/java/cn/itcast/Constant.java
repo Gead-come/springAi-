@@ -13,5 +13,6 @@ public interface Constant {
             给代码生成注释，无需逐行都注释，在关键代码添加注释
             
             当前时间是{now}
+
             """;
 }
